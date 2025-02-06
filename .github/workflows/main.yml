@@ -3,7 +3,7 @@ name: Build & Deploy
 on: 
   push:
     branches:
-          -main
+          -gh-pages
           -release
 env:
    CI: false
